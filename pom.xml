@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>pip-shop-basics</module>
+        <module>pip-shop-service-api</module>
+        <module>pip-shop-service-impl</module>
     </modules>
 
     <parent>

@@ -7,17 +7,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pip-shop-basics-springcloud-eureka" />
+        <module name="pip-shop-service-api-member" />
+        <module name="pip-shop-service-api-weixin-entity" />
+        <module name="pip-shop-service-member" />
+        <module name="pip-shop-service-weixin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pip-shop-basics" target="1.8" />
       <module name="pip-shop-basics-springcloud-eureka" target="1.8" />
       <module name="pip-shop-parent" target="1.8" />
+      <module name="pip-shop-service-api" target="1.8" />
+      <module name="pip-shop-service-api-member" target="1.8" />
+      <module name="pip-shop-service-api-weixin" target="1.8" />
+      <module name="pip-shop-service-api-weixin-entity" target="1.8" />
+      <module name="pip-shop-service-impl" target="1.8" />
+      <module name="pip-shop-service-member" target="1.8" />
+      <module name="pip-shop-service-weixin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pip-shop-basics-springcloud-eureka" options="-parameters" />
+      <module name="pip-shop-service-api" options="-parameters" />
+      <module name="pip-shop-service-api-member" options="-parameters" />
+      <module name="pip-shop-service-api-weixin" options="-parameters" />
+      <module name="pip-shop-service-api-weixin-entity" options="-parameters" />
+      <module name="pip-shop-service-impl" options="-parameters" />
+      <module name="pip-shop-service-member" options="-parameters" />
+      <module name="pip-shop-service-weixin" options="-parameters" />
     </option>
   </component>
 </project>
